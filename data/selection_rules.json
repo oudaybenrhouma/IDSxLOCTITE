@@ -1,0 +1,210 @@
+[
+  {
+    "rule_id": "RULE_THREADLOCKING_STRENGTH",
+    "category": "Threadlocking",
+    "condition": "Select threadlocker strength based on screw size, material, and disassembly requirement",
+    "decision_tree": [
+      {
+        "if": {
+          "screw_size": "< M6",
+          "disassembly": "easy_hand_tools"
+        },
+        "then_product_id": "PROD_222"
+      },
+      {
+        "if": {
+          "screw_size": "M6 to M20",
+          "disassembly": "standard_hand_tools"
+        },
+        "then_product_id": "PROD_243"
+      },
+      {
+        "if": {
+          "screw_size": "M6 to M20",
+          "disassembly": "health_safety_no_hazard"
+        },
+        "then_product_id": "PROD_2400"
+      },
+      {
+        "if": {
+          "screw_size": "M6 to M20 / studs",
+          "disassembly": "permanent_high_strength"
+        },
+        "then_product_id": "PROD_270"
+      },
+      {
+        "if": {
+          "screw_size": "> 1 inch / studs",
+          "disassembly": "permanent_heat_required"
+        },
+        "then_product_id": "PROD_263",
+        "alternative_id": "PROD_277"
+      },
+      {
+        "if": {
+          "assembly_status": "pre_assembled"
+        },
+        "then_product_id": "PROD_290"
+      }
+    ]
+  },
+  {
+    "rule_id": "RULE_THREAD_SEALING_TYPE",
+    "category": "Thread Sealing",
+    "condition": "Select thread sealant based on thread type, pipe material, fluid, and pressure requirement",
+    "decision_tree": [
+      {
+        "if": {
+          "thread_type": "fine_hydraulic_pneumatic",
+          "zero_contamination": true
+        },
+        "then_product_id": "PROD_542",
+        "alternative_id": "PROD_545"
+      },
+      {
+        "if": {
+          "thread_type": "coarse_metal",
+          "medium_strength": true
+        },
+        "then_product_id": "PROD_577"
+      },
+      {
+        "if": {
+          "material": "stainless_steel_or_all_metals",
+          "high_temp": true
+        },
+        "then_product_id": "PROD_567"
+      },
+      {
+        "if": {
+          "material": "general_metal_except_stainless"
+        },
+        "then_product_id": "PROD_565"
+      },
+      {
+        "if": {
+          "requirement": "immediate_pressure_or_potable_water_or_gas_or_adjustable"
+        },
+        "then_product_id": "PROD_55"
+      }
+    ]
+  },
+  {
+    "rule_id": "RULE_GASKETING_SELECTION",
+    "category": "Gasketing",
+    "condition": "Select gasketing material based on flange rigidity, gap size, and continuous operating temperature",
+    "decision_tree": [
+      {
+        "if": {
+          "flange_type": "rigid_iron_steel_aluminum",
+          "gap": "<= 0.25 mm",
+          "temp": "<= 150 C"
+        },
+        "then_product_id": "PROD_518",
+        "alternative_id": "PROD_574"
+      },
+      {
+        "if": {
+          "flange_type": "rigid_metal",
+          "gap": "<= 0.25 mm",
+          "temp": "150 C to 204 C"
+        },
+        "then_product_id": "PROD_510"
+      },
+      {
+        "if": {
+          "flange_type": "stamped_sheet_metal_flexible",
+          "gap": "up to 3 mm",
+          "high_adhesion": true
+        },
+        "then_product_id": "PROD_SI5699",
+        "alternative_id": "PROD_SI587"
+      },
+      {
+        "if": {
+          "flange_type": "rigid_or_flexible",
+          "health_safety_no_hazard": true
+        },
+        "then_product_id": "PROD_5800"
+      }
+    ]
+  },
+  {
+    "rule_id": "RULE_RETAINING_GAP_FILL",
+    "category": "Retaining",
+    "condition": "Select retaining compound based on fit type, radial gap size, and temperature",
+    "decision_tree": [
+      {
+        "if": {
+          "fit_type": "press_fit",
+          "gap": "small"
+        },
+        "then_product_id": "PROD_609",
+        "alternative_id": "PROD_603"
+      },
+      {
+        "if": {
+          "fit_type": "slip_fit",
+          "radial_gap": "<= 0.15 mm (0.006 in)"
+        },
+        "then_product_id": "PROD_648"
+      },
+      {
+        "if": {
+          "fit_type": "slip_fit",
+          "radial_gap": "0.15 mm to 0.25 mm (0.010 in)"
+        },
+        "then_product_id": "PROD_638"
+      },
+      {
+        "if": {
+          "fit_type": "slip_fit_or_worn_keyway",
+          "radial_gap": "0.25 mm to 0.50 mm (0.020 in)"
+        },
+        "then_product_id": "PROD_660"
+      },
+      {
+        "if": {
+          "fit_type": "worn_shaft_housing_large_rebuild",
+          "radial_gap": "> 0.50 mm"
+        },
+        "then_product_id": "PROD_EA3478"
+      },
+      {
+        "if": {
+          "temp_resistance": "up to 204 C (400 F)"
+        },
+        "then_product_id": "PROD_620"
+      }
+    ]
+  },
+  {
+    "rule_id": "RULE_PUMP_CERAMIC_REPAIR",
+    "category": "Pump Rebuilding",
+    "condition": "Select ceramic protective coating based on wear mechanism and surface damage severity",
+    "decision_tree": [
+      {
+        "if": {
+          "wear_severity": "deep_volute_casing_wear",
+          "particle_size": "coarse_or_cavitation"
+        },
+        "then_product_id": "PROD_PC7226_rebuild",
+        "then_topcoat_id": "PROD_PC7227"
+      },
+      {
+        "if": {
+          "wear_severity": "fine_abrasion_or_impeller_restoration",
+          "finish": "high_gloss_low_friction"
+        },
+        "then_product_id": "PROD_PC7227"
+      },
+      {
+        "if": {
+          "environment": "extreme_chemical_acid_sulfuric_attack"
+        },
+        "then_product_id": "PROD_PC7117",
+        "alternative_id": "PROD_PC7221"
+      }
+    ]
+  }
+]

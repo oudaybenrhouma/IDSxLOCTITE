@@ -1,0 +1,561 @@
+[
+  {
+    "id": "PROD_222",
+    "name": "LOCTITE\u00ae 222\u2122 Threadlocker",
+    "product_code": "222",
+    "category": "Threadlocking",
+    "strength": "Low",
+    "color": "Purple / Red (Food Brochure)",
+    "chemistry": "Anaerobic",
+    "viscosity": "Low / Thixotropic",
+    "max_gap": "Small screws",
+    "temp_range": "-55\u00b0C to +150\u00b0C",
+    "cure_time": "Handling: 15-30 min; Full: 24 hrs",
+    "approvals": [
+      "NSF S6 Reg.-N\u00b0 123002"
+    ],
+    "compatible_materials": [
+      "All metals including passive substrates (e.g. aluminum, brass, stainless steel)"
+    ],
+    "applications": [
+      "Small screws",
+      "Set screws",
+      "Countersunk screws",
+      "Adjusting screws"
+    ],
+    "limitations": "Low strength, easily disassembled with hand tools",
+    "usage_instructions": "Clean with SF 7070/7063. Apply several drops to engagement area. Assemble and tighten."
+  },
+  {
+    "id": "PROD_243",
+    "name": "LOCTITE\u00ae 243\u2122 Threadlocker",
+    "product_code": "243",
+    "category": "Threadlocking",
+    "strength": "Medium",
+    "color": "Blue",
+    "chemistry": "Anaerobic",
+    "viscosity": "Medium",
+    "max_gap": "Up to 0.25 mm",
+    "temp_range": "-55\u00b0C to +180\u00b0C",
+    "cure_time": "Handling: 10-15 min; Full: 24 hrs",
+    "approvals": [
+      "NSF S6 Reg.-N\u00b0 123000",
+      "WRAS BS 6920-1: 1911512",
+      "ISEGA 59342 U 23"
+    ],
+    "compatible_materials": [
+      "All metals (active and passive like stainless steel, aluminum, plated surfaces)"
+    ],
+    "applications": [
+      "Nuts and bolts",
+      "Pump casing bolts",
+      "Drive pulley bolts/nuts",
+      "Impeller screws",
+      "Metallic seal O.D. retaining"
+    ],
+    "limitations": "Disassembly requires standard hand tools",
+    "usage_instructions": "Clean threads with LOCTITE SF 7070 or SF 7063. Apply drops to engagement area. Assemble and torque."
+  },
+  {
+    "id": "PROD_263",
+    "name": "LOCTITE\u00ae 263\u2122 Threadlocker",
+    "product_code": "263",
+    "category": "Threadlocking",
+    "strength": "High",
+    "color": "Red",
+    "chemistry": "Anaerobic",
+    "viscosity": "Medium",
+    "max_gap": "Up to 1 inch studs",
+    "temp_range": "-54\u00b0C to +180\u00b0C",
+    "cure_time": "Handling: 10 min; Full: 24 hrs",
+    "approvals": [
+      "Industrial Grade"
+    ],
+    "compatible_materials": [
+      "Metals, heavy duty studs, bolts"
+    ],
+    "applications": [
+      "High strength stud locking",
+      "Permanent nut and bolt assembly"
+    ],
+    "limitations": "Requires localized heating (232\u00b0C for 5 min) for disassembly while hot",
+    "usage_instructions": "Squirt drops into female blind hole threads and onto bolt. Assemble and torque."
+  },
+  {
+    "id": "PROD_270",
+    "name": "LOCTITE\u00ae 270\u2122 Threadlocker",
+    "product_code": "270",
+    "category": "Threadlocking",
+    "strength": "High",
+    "color": "Red",
+    "chemistry": "Anaerobic",
+    "viscosity": "Medium",
+    "max_gap": "Up to M20 bolts",
+    "temp_range": "-55\u00b0C to +150\u00b0C",
+    "cure_time": "Handling: 15 min; Full: 24 hrs",
+    "approvals": [
+      "NSF S6 Reg.-N\u00b0 123001"
+    ],
+    "compatible_materials": [
+      "All metals including passive substrates"
+    ],
+    "applications": [
+      "Permanent blocking of studs on motor blocks",
+      "Pump base mounting bolts"
+    ],
+    "limitations": "High strength permanent locking; disassembly requires heating to 250\u00b0C",
+    "usage_instructions": "Clean threads, apply drops to engagement area, assemble and tighten."
+  },
+  {
+    "id": "PROD_277",
+    "name": "LOCTITE\u00ae 277\u2122 Threadlocker",
+    "product_code": "277",
+    "category": "Threadlocking",
+    "strength": "High",
+    "color": "Red",
+    "chemistry": "Anaerobic",
+    "viscosity": "High",
+    "max_gap": "Large fasteners (>1 inch / M36)",
+    "temp_range": "-54\u00b0C to +150\u00b0C",
+    "cure_time": "Handling: 30 min; Full: 24 hrs",
+    "approvals": [
+      "Industrial Grade"
+    ],
+    "compatible_materials": [
+      "Heavy metal fasteners, studs over 1 inch"
+    ],
+    "applications": [
+      "Large studs and bolts (>1\")"
+    ],
+    "limitations": "Requires localized heat (232\u00b0C) for disassembly",
+    "usage_instructions": "Apply to threads, assemble and torque."
+  },
+  {
+    "id": "PROD_290",
+    "name": "LOCTITE\u00ae 290\u2122 Threadlocker",
+    "product_code": "290",
+    "category": "Threadlocking / Wicking",
+    "strength": "Medium / High",
+    "color": "Green",
+    "chemistry": "Anaerobic Wicking",
+    "viscosity": "Very Low (Wicking)",
+    "max_gap": "0.005 inch (0.13 mm)",
+    "temp_range": "-54\u00b0C to +150\u00b0C",
+    "cure_time": "Handling: 20 min; Full: 24 hrs",
+    "approvals": [
+      "Industrial Grade"
+    ],
+    "compatible_materials": [
+      "Metals, existing weld porosities, pre-assembled threaded fasteners"
+    ],
+    "applications": [
+      "Pre-assembled fasteners",
+      "Adjustment screws",
+      "Sealing weld porosities and casting micro-porosities"
+    ],
+    "limitations": "Requires heating for weld porosity sealing (80\u00b0C steel, 50\u00b0C aluminum/stainless)",
+    "usage_instructions": "Apply drops to nut/bolt juncture of pre-assembled parts. Wicks into capillary gaps."
+  },
+  {
+    "id": "PROD_2400",
+    "name": "LOCTITE\u00ae 2400\u2122 Health & Safety Threadlocker",
+    "product_code": "2400",
+    "category": "Threadlocking",
+    "strength": "Medium",
+    "color": "Blue",
+    "chemistry": "Anaerobic (Health & Safety formulated)",
+    "viscosity": "Medium",
+    "max_gap": "Up to 0.25 mm",
+    "temp_range": "-55\u00b0C to +150\u00b0C",
+    "cure_time": "Full: 24 hrs",
+    "approvals": [
+      "WRAS BS 6920-1: 1911507",
+      "NSF S6 Reg.-N\u00b0 166639"
+    ],
+    "compatible_materials": [
+      "All metals"
+    ],
+    "applications": [
+      "Medium strength threadlocking with enhanced user health & safety profile (no hazard symbols)"
+    ],
+    "limitations": "Disassembly with hand tools",
+    "usage_instructions": "Apply to cleaned threads, assemble and tighten."
+  },
+  {
+    "id": "PROD_2700",
+    "name": "LOCTITE\u00ae 2700\u2122 Health & Safety Threadlocker",
+    "product_code": "2700",
+    "category": "Threadlocking",
+    "strength": "High",
+    "color": "Red",
+    "chemistry": "Anaerobic (Health & Safety formulated)",
+    "viscosity": "Medium",
+    "max_gap": "Up to M20",
+    "temp_range": "-55\u00b0C to +150\u00b0C",
+    "cure_time": "Full: 24 hrs",
+    "approvals": [
+      "NSF S6 Reg.-N\u00b0 141670",
+      "WRAS BS 6920-1"
+    ],
+    "compatible_materials": [
+      "All metals"
+    ],
+    "applications": [
+      "Permanent high strength threadlocking without hazard labels"
+    ],
+    "limitations": "Disassembly requires heating",
+    "usage_instructions": "Apply to threads, assemble and tighten."
+  },
+  {
+    "id": "PROD_55",
+    "name": "LOCTITE\u00ae 55\u2122 Pipe Sealing Cord",
+    "product_code": "55",
+    "category": "Thread Sealing",
+    "strength": "Low (Adjustable)",
+    "color": "White",
+    "chemistry": "Multi-filament polyamide cord with inert coated paste",
+    "viscosity": "Solid Cord",
+    "max_gap": "Tapered and straight pipe threads up to 4 inches",
+    "temp_range": "-55\u00b0C to +130\u00b0C",
+    "cure_time": "Immediate pressure sealing",
+    "approvals": [
+      "NSF/ANSI 61",
+      "WRAS (BS 6920-1): 2108538",
+      "Fraunhofer Food Contact Certificate",
+      "DVGW Gas & Potable Water"
+    ],
+    "compatible_materials": [
+      "Metal and plastic threaded pipes/fittings"
+    ],
+    "applications": [
+      "Potable water lines",
+      "Gas & hydrogen pipes",
+      "Immediate low/high pressure sealing",
+      "Adjustable fittings (allows backing off up to 45\u00b0)"
+    ],
+    "limitations": "Do not use on pure oxygen systems without verification",
+    "usage_instructions": "Wind onto male thread overlapping in cross direction. Assemble and tighten."
+  },
+  {
+    "id": "PROD_518",
+    "name": "LOCTITE\u00ae 518\u2122 Flange Sealant",
+    "product_code": "518",
+    "category": "Gasketing",
+    "strength": "Medium",
+    "color": "Red",
+    "chemistry": "Anaerobic Gel",
+    "viscosity": "High / Gel",
+    "max_gap": "0.010 inch (0.25 mm)",
+    "temp_range": "-54\u00b0C to +150\u00b0C",
+    "cure_time": "Immediate low pressure; Full 4-24 hrs",
+    "approvals": [
+      "NSF P1 Reg.-N\u00b0 123758"
+    ],
+    "compatible_materials": [
+      "Rigid iron, steel, and aluminum flanges"
+    ],
+    "applications": [
+      "Rigid cast flanges",
+      "Pump casings",
+      "Gearbox covers",
+      "Gasket dressing on pre-cut gaskets"
+    ],
+    "limitations": "Not for flexible sheet metal flanges",
+    "usage_instructions": "Clean flanges with SF 7070. Spray SF 7649 Primer on one side if passive metal. Apply continuous bead, circling all bolt holes. Mate parts."
+  },
+  {
+    "id": "PROD_577",
+    "name": "LOCTITE\u00ae 577\u2122 Thread Sealant",
+    "product_code": "577",
+    "category": "Thread Sealing",
+    "strength": "Medium",
+    "color": "Yellow",
+    "chemistry": "Anaerobic Thixotropic Gel",
+    "viscosity": "High / Thixotropic",
+    "max_gap": "Coarse threads up to M80 / 3 inches",
+    "temp_range": "-54\u00b0C to +180\u00b0C",
+    "cure_time": "Immediate low pressure; Full 24 hrs",
+    "approvals": [
+      "NSF P1 Reg.-N\u00b0 123001",
+      "DVGW BG-0140BO0712",
+      "WRAS BS 6920-1"
+    ],
+    "compatible_materials": [
+      "All metals (steel, brass, aluminum, stainless steel)"
+    ],
+    "applications": [
+      "Coarse threaded metal pipe fittings",
+      "Pump drain plugs",
+      "Hydraulic/pneumatic connectors"
+    ],
+    "limitations": "Do not use on pure oxygen or strong oxidizers",
+    "usage_instructions": "Clean parts with SF 7070. Apply continuous bead 360\u00b0 around male threads starting 1-2 threads back. Tighten."
+  },
+  {
+    "id": "PROD_638",
+    "name": "LOCTITE\u00ae 638\u2122 Retaining Compound",
+    "product_code": "638",
+    "category": "Retaining",
+    "strength": "High",
+    "color": "Green",
+    "chemistry": "Anaerobic Liquid",
+    "viscosity": "High",
+    "max_gap": "0.010 inch (0.25 mm) radial",
+    "temp_range": "-55\u00b0C to +180\u00b0C",
+    "cure_time": "Handling: 4-8 min; Full: 24 hrs",
+    "approvals": [
+      "NSF P1 Reg.-N\u00b0 123003",
+      "WRAS BS 6920-1: 2311546",
+      "DVGW"
+    ],
+    "compatible_materials": [
+      "Cylindrical metal parts, shafts, bearings, gears, couplings"
+    ],
+    "applications": [
+      "Shaft mounted assemblies (slip fit & press fit)",
+      "Bearings on shafts",
+      "Impellers on pump shafts",
+      "Sleeved shafts"
+    ],
+    "limitations": "High strength; disassembly may require heat (230\u00b0C)",
+    "usage_instructions": "Clean parts. Apply to shaft engagement area or inside bore. Assemble with twisting motion."
+  },
+  {
+    "id": "PROD_648",
+    "name": "LOCTITE\u00ae 648\u2122 Retaining Compound",
+    "product_code": "648",
+    "category": "Retaining",
+    "strength": "High",
+    "color": "Green",
+    "chemistry": "Anaerobic Liquid",
+    "viscosity": "Low",
+    "max_gap": "0.006 inch (0.15 mm) radial",
+    "temp_range": "-55\u00b0C to +180\u00b0C",
+    "cure_time": "Handling: 3-5 min; Full: 24 hrs",
+    "approvals": [
+      "NSF P1 Reg.-N\u00b0 148350",
+      "WRAS BS 6920-1: 2108538",
+      "Fraunhofer Food Contact"
+    ],
+    "compatible_materials": [
+      "All cylindrical metal assemblies"
+    ],
+    "applications": [
+      "Gears and sprockets on gearbox shafts",
+      "Bearings",
+      "Rotors on electric motor shafts"
+    ],
+    "limitations": "Tight clearance parts (<0.15 mm)",
+    "usage_instructions": "Clean parts with SF 7063/7070. Apply to leading edge, press or slip assemble."
+  },
+  {
+    "id": "PROD_660",
+    "name": "LOCTITE\u00ae 660\u2122 Quick Metal Retaining Compound",
+    "product_code": "660",
+    "category": "Retaining / Repair",
+    "strength": "High",
+    "color": "Silver / Grey Paste",
+    "chemistry": "Anaerobic Non-sag Gel",
+    "viscosity": "Very High / Paste",
+    "max_gap": "0.020 inch (0.50 mm) radial",
+    "temp_range": "-54\u00b0C to +150\u00b0C",
+    "cure_time": "Handling: 15-30 min; Full: 24 hrs",
+    "approvals": [
+      "NSF P1 Reg.-N\u00b0 123004"
+    ],
+    "compatible_materials": [
+      "Worn metal shafts, keyways, housings, shims"
+    ],
+    "applications": [
+      "Repairing badly wallowed keyways",
+      "Worn shafts with sleeves",
+      "Worn bearing housings",
+      "Restoring slip fit on worn parts"
+    ],
+    "limitations": "NOT recommended for radial/lateral gaps exceeding 0.020 inch (0.5 mm)",
+    "usage_instructions": "Clean surface. Apply primer SF 7649 if gap > 0.005\". Apply paste to keyway/shaft gap. Assemble."
+  },
+  {
+    "id": "PROD_EA3478",
+    "name": "LOCTITE\u00ae EA 3478\u2122 Superior Metal",
+    "product_code": "EA 3478",
+    "category": "Metal Rebuilding / Epoxy Putty",
+    "strength": "High Compression & Shear",
+    "color": "Grey Metallic",
+    "chemistry": "2-Part Ferro-Silicon Filled Epoxy",
+    "viscosity": "Putty",
+    "max_gap": "No limit (Thick section rebuild)",
+    "temp_range": "-30\u00b0C to +120\u00b0C",
+    "cure_time": "Working time: 20 min; Machinable: 2 hrs; Full: 24 hrs",
+    "approvals": [
+      "Industrial Heavy Duty Grade"
+    ],
+    "compatible_materials": [
+      "Steel, cast iron, stainless steel, aluminum"
+    ],
+    "applications": [
+      "Rebuilding worn pump shafts",
+      "Restoring oversized bearing housings",
+      "Rebuilding worn keyways & splines",
+      "Machinable metal repair"
+    ],
+    "limitations": "Requires surface roughening/grit blasting (SA2.5) for maximum adhesion",
+    "usage_instructions": "Mix Part A & B (4:1 by vol / 7.25:1 by weight). Apply firmly to grit-blasted clean surface. Allow cure then machine on lathe to original dimensions."
+  },
+  {
+    "id": "PROD_PC7117",
+    "name": "LOCTITE\u00ae PC 7117\u2122 Chemical Resistant Coating",
+    "product_code": "PC 7117",
+    "category": "Protective Coating",
+    "strength": "High Adhesion & Chemical Resistance",
+    "color": "Black",
+    "chemistry": "2-Part Ceramic-Filled Epoxy (Brushable)",
+    "viscosity": "Brushable Liquid",
+    "max_gap": "0.5 mm per coat (2 coats = 1 mm)",
+    "temp_range": "-30\u00b0C to +95\u00b0C",
+    "cure_time": "Recoat window: tacky stage; Full cure: 24 hrs",
+    "approvals": [
+      "Industrial Chemical Duty Grade"
+    ],
+    "compatible_materials": [
+      "Cast iron, steel, pump volutes, impellers, tanks"
+    ],
+    "applications": [
+      "External pump corrosion protection",
+      "Protecting internal pump casings against sulfuric acid & harsh chemicals",
+      "Preventing oil seepage on casings"
+    ],
+    "limitations": "Requires grit blasting to SA 2.5 profile prior to application",
+    "usage_instructions": "Sandblast surface (SA 2.5). Apply SF 7515 rust inhibitor if needed. Mix and brush apply 2 coats (0.5 mm each)."
+  },
+  {
+    "id": "PROD_PC7227",
+    "name": "LOCTITE\u00ae PC 7227\u2122 Brushable Ceramic",
+    "product_code": "PC 7227",
+    "category": "Protective Coating",
+    "strength": "High Gloss Low Friction Wear Resistant",
+    "color": "Grey / Green",
+    "chemistry": "2-Part Silicon Carbide Ceramic-Filled Epoxy",
+    "viscosity": "Brushable Liquid",
+    "max_gap": "Smooth low-friction coating",
+    "temp_range": "-30\u00b0C to +120\u00b0C",
+    "cure_time": "Functional cure: 6 hrs; Full cure: 24 hrs",
+    "approvals": [
+      "Industrial Grade"
+    ],
+    "compatible_materials": [
+      "Pump impellers, volutes, turbine blades, pipe elbows"
+    ],
+    "applications": [
+      "Restoring and coating pump impellers & turbine blades",
+      "High-gloss low-friction wear coating",
+      "Topcoat over PC 7226 rebuild putty"
+    ],
+    "limitations": "Fine particle abrasion / cavitation protection",
+    "usage_instructions": "Sandblast SA 2.5. Clean with SF 7063. Mix and brush apply onto prepared surface."
+  },
+  {
+    "id": "PROD_EAE20HP",
+    "name": "LOCTITE\u00ae EA E-20HP\u2122 Structural Adhesive",
+    "product_code": "EA E-20HP",
+    "category": "Structural Bonding",
+    "strength": "High Shear (3200 psi / 22 N/mm\u00b2) & High Peel",
+    "color": "Off-White",
+    "chemistry": "2-Part Toughened Epoxy",
+    "viscosity": "30,000 mPa.s (Medium)",
+    "max_gap": "Gap filling structural bond",
+    "temp_range": "-40\u00b0C to +175\u00b0C (-40\u00b0F to +350\u00b0F)",
+    "cure_time": "Work life: 20 min; Fixture: 120 min; Full: 24 hrs",
+    "approvals": [
+      "Industrial Grade"
+    ],
+    "compatible_materials": [
+      "Aluminum, steel, stainless steel, concrete, wood, plastics (nylon, polycarbonate)"
+    ],
+    "applications": [
+      "Welding alternative",
+      "Structural metal bonding",
+      "Filter screen mesh bonding",
+      "High vibration structural joints"
+    ],
+    "limitations": "2:1 mix ratio via dual cartridge nozzle",
+    "usage_instructions": "Dispense via dual cartridge mix nozzle. Apply to clean joint, clamp and allow 120 min fixture."
+  },
+  {
+    "id": "PROD_LB8008",
+    "name": "LOCTITE\u00ae LB 8008\u2122 C5-A Copper Anti-Seize",
+    "product_code": "LB 8008",
+    "category": "Anti-Seize Lubricant",
+    "strength": "N/A (Lubricant)",
+    "color": "Copper",
+    "chemistry": "Copper and Graphite in Heavy Grease",
+    "viscosity": "Paste",
+    "max_gap": "Threaded fasteners and mated parts",
+    "temp_range": "-29\u00b0C to +982\u00b0C",
+    "cure_time": "Non-curing paste",
+    "approvals": [
+      "Industrial Grade"
+    ],
+    "compatible_materials": [
+      "Copper, brass, cast iron, steel, stainless steel"
+    ],
+    "applications": [
+      "High temperature bolts & studs",
+      "Exhaust manifolds",
+      "Pump casing studs",
+      "Gland nut threads"
+    ],
+    "limitations": "Not for high-speed bearings",
+    "usage_instructions": "Clean threads. Brush paste onto male threads and mating flange faces prior to assembly."
+  },
+  {
+    "id": "PROD_SF7070",
+    "name": "LOCTITE\u00ae SF 7070\u2122 Cleaner & Degreaser",
+    "product_code": "SF 7070",
+    "category": "Cleaner / Surface Prep",
+    "strength": "N/A",
+    "color": "Clear Liquid",
+    "chemistry": "Solvent-based ODC-Free Cleaner",
+    "viscosity": "Liquid",
+    "max_gap": "N/A",
+    "temp_range": "Ambient",
+    "cure_time": "Fast evaporating leaves no residue",
+    "approvals": [
+      "NSF K1 Reg.-N\u00b0 141915"
+    ],
+    "compatible_materials": [
+      "Metals, most plastics, elastomers"
+    ],
+    "applications": [
+      "General purpose parts cleaning prior to adhesive/sealant application",
+      "Degreasing pump components, flanges, threads"
+    ],
+    "limitations": "Solvent spray; ensure proper ventilation",
+    "usage_instructions": "Spray onto contaminated parts or wipe with clean cloth. Allow to dry thoroughly before applying LOCTITE products."
+  },
+  {
+    "id": "PROD_SF7649",
+    "name": "LOCTITE\u00ae SF 7649\u2122 Primer N",
+    "product_code": "SF 7649",
+    "category": "Primer / Activator",
+    "strength": "N/A",
+    "color": "Green / Clear",
+    "chemistry": "Copper Salt Solvent Based Activator",
+    "viscosity": "Liquid Solvent",
+    "max_gap": "N/A",
+    "temp_range": "Ambient",
+    "cure_time": "Drying time: 30-60 seconds; On-part life: 30 days",
+    "approvals": [
+      "Industrial Grade"
+    ],
+    "compatible_materials": [
+      "Passive metals (stainless steel, aluminum, plated parts), cold temperatures, large gaps (>0.13 mm)"
+    ],
+    "applications": [
+      "Accelerating anaerobic cure speed on passive metals",
+      "Curing anaerobics at low temperatures (<15\u00b0C)"
+    ],
+    "limitations": "Excessive use may reduce bond strength on very small gaps (0.05 mm)",
+    "usage_instructions": "Spray onto one or both clean surfaces. Allow 1 minute to dry. Apply anaerobic product within on-part life."
+  }
+]

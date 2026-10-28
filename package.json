@@ -1,0 +1,41 @@
+{
+  "name": "ids-loctite-product-selection-guide",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Guide de sélection produits LOCTITE pour IDS — moteur déterministe basé sur les jeux de données documentaires.",
+  "engines": {
+    "node": ">=20.11"
+  },
+  "scripts": {
+    "dev": "concurrently -n api,web -c cyan,magenta \"node --watch server/index.js\" \"vite\"",
+    "dev:api": "node --watch server/index.js",
+    "dev:web": "vite",
+    "build": "vite build",
+    "start": "node server/index.js",
+    "validate:data": "node scripts/validate-data.mjs",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "report:data": "node scripts/validate-data.mjs --write-report",
+    "test:engine": "vitest run tests/engine.test.js tests/data.test.js",
+    "test:api": "vitest run tests/api.test.js",
+    "test:ui": "vitest run tests/ui.test.jsx",
+    "verify": "npm run validate:data && npm run test && npm run build",
+    "preview": "npm run build && npm start"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.28.0"
+  },
+  "devDependencies": {
+    "@testing-library/dom": "^10.4.0",
+    "@testing-library/react": "^16.1.0",
+    "@vitejs/plugin-react": "^4.3.4",
+    "concurrently": "^9.1.0",
+    "jsdom": "^25.0.1",
+    "vite": "^5.4.11",
+    "vitest": "^2.1.8"
+  }
+}

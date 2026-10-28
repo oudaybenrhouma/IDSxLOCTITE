@@ -1,0 +1,112 @@
+[
+  {
+    "id": "PROB_001",
+    "title": "Bolts loosening due to vibration, thermal expansion, or shock loads",
+    "symptoms": "Screws backing out, lost clamping pressure, leaking flanges, machine downtime.",
+    "root_cause": "Side-to-side movement between threads under load causing loss of friction.",
+    "recommended_solution": {
+      "primary_product_id": "PROD_243",
+      "alternative_product_ids": [
+        "PROD_270",
+        "PROD_222",
+        "PROD_2400"
+      ],
+      "procedure": "Clean threads with LOCTITE SF 7070. Apply LOCTITE 243 to bolt engagement area. Assemble and torque to spec."
+    },
+    "selection_criteria": "Use LOCTITE 222 for small screws (<M6), LOCTITE 243 for standard nuts/bolts (M6-M20, hand tool removable), LOCTITE 270 for permanent high strength (>M20 or studs)."
+  },
+  {
+    "id": "PROB_002",
+    "title": "Pipe thread leakage in high pressure hydraulic, pneumatic, or water lines",
+    "symptoms": "Fluid weeping from threaded joints, pressure drop, contamination.",
+    "root_cause": "Helical leak paths along spiral thread roots under pressure.",
+    "recommended_solution": {
+      "primary_product_id": "PROD_577",
+      "alternative_product_ids": [
+        "PROD_55",
+        "PROD_542",
+        "PROD_565"
+      ],
+      "procedure": "Clean threads with SF 7070. Apply LOCTITE 577 around male threads starting 1-2 threads from end. Tighten securely."
+    },
+    "selection_criteria": "Use LOCTITE 542 for fine hydraulic threads; LOCTITE 577 for coarse metal threads; LOCTITE 55 cord for immediate pressure & potable water/gas."
+  },
+  {
+    "id": "PROB_003",
+    "title": "Flange gasket blowout, fluid leakage, or bolt relaxation on rigid cast flanges",
+    "symptoms": "Oil or chemical leaking from split casing or gearbox flange.",
+    "root_cause": "Precut paper/cork gaskets shrinking, creeping under pressure, or failing to fill surface roughness.",
+    "recommended_solution": {
+      "primary_product_id": "PROD_518",
+      "alternative_product_ids": [
+        "PROD_574",
+        "PROD_510",
+        "PROD_SI5699"
+      ],
+      "procedure": "Remove old gasket with SF 790 Chisel. Clean with SF 7070. Apply continuous bead of LOCTITE 518 circling bolt holes. Assemble immediately."
+    },
+    "selection_criteria": "LOCTITE 518 for rigid iron/steel/aluminum; LOCTITE 510 for high temp (>150\u00b0C up to 204\u00b0C); LOCTITE SI 5699 for flexible/stamped flanges."
+  },
+  {
+    "id": "PROB_004",
+    "title": "Bearing or shaft slippage, fretting corrosion, or spun bearings on shaft / housing",
+    "symptoms": "Noise, excessive shaft play, fretting rust powder, heat generation.",
+    "root_cause": "Micro-movement between pressed or slip-fit cylindrical metal assemblies.",
+    "recommended_solution": {
+      "primary_product_id": "PROD_638",
+      "alternative_product_ids": [
+        "PROD_648",
+        "PROD_660",
+        "PROD_641"
+      ],
+      "procedure": "Clean parts with SF 7063/7070. Apply LOCTITE 638 to leading edge of shaft/bore engagement. Press or slip assemble with twisting motion."
+    },
+    "selection_criteria": "LOCTITE 648 for tight gaps (<0.15 mm); LOCTITE 638 for maximum strength up to 0.25 mm gap; LOCTITE 660 for worn shafts/keyways up to 0.5 mm gap."
+  },
+  {
+    "id": "PROB_005",
+    "title": "Badly wallowed keyway or worn pump shaft / oversize bearing housing",
+    "symptoms": "Loose drive key, rotational slop, worn bearing seat, shaft vibration.",
+    "root_cause": "Repeated torque reversals and severe impact loads degrading keyway and shaft dimensions.",
+    "recommended_solution": {
+      "primary_product_id": "PROD_660",
+      "alternative_product_ids": [
+        "PROD_EA3478"
+      ],
+      "procedure": "For gaps up to 0.5 mm (0.020\"): apply LOCTITE 660 into keyway/shaft with SF 7649 primer. For severe wear: rebuild shaft with LOCTITE EA 3478 Superior Metal, then lathe machine to size."
+    },
+    "selection_criteria": "Use LOCTITE 660 for emergency / fast keyway repair up to 0.5 mm; use EA 3478 Superior Metal for permanent metal rebuilding and precision lathe remachining."
+  },
+  {
+    "id": "PROB_006",
+    "title": "Severe abrasion, erosion, and chemical corrosion inside pump volute casing & impeller",
+    "symptoms": "Loss of pump flow/head, reduced efficiency (off BEP), thin casing walls, cavitation pitting.",
+    "root_cause": "Slurry particles, fluid turbulence, cavitation micro-implosions, and chemical attack.",
+    "recommended_solution": {
+      "primary_product_id": "PROD_PC7227",
+      "alternative_product_ids": [
+        "PROD_PC7117",
+        "PROD_PC7226",
+        "PROD_EA3478"
+      ],
+      "procedure": "Grit blast to SA 2.5. Clean with SF 7063. Rebuild deep wear pockets with ceramic putty (PC 7226). Apply 2 brush coats of LOCTITE PC 7227 ceramic topcoat (500 \u00b5m total)."
+    },
+    "selection_criteria": "PC 7226 for thick rebuild of worn volute; PC 7227 for smooth high-gloss low-friction topcoat on impellers & volutes; PC 7117 for extreme chemical/acid resistance."
+  },
+  {
+    "id": "PROB_007",
+    "title": "Seizing and galling of stainless steel or high-temp bolts during pump disassembly",
+    "symptoms": "Snapped studs, stripped threads, galling on gland nuts and casing bolts.",
+    "root_cause": "Galvanic corrosion, friction welding on stainless steel, extreme heat build-up.",
+    "recommended_solution": {
+      "primary_product_id": "PROD_LB8008",
+      "alternative_product_ids": [
+        "PROD_LB8150",
+        "PROD_LB771",
+        "PROD_LB8023"
+      ],
+      "procedure": "Clean threads thoroughly. Coat male threads and under bolt head with LOCTITE LB 8008 C5-A Copper Anti-Seize (or LB 8023 Marine Grade for saltwater exposure) prior to assembly."
+    },
+    "selection_criteria": "LB 8008 Copper up to 982\u00b0C; LB 8150 Silver for stainless up to 870\u00b0C; LB 771 Nickel up to 1315\u00b0C for chemical environments; LB 8023 for marine/water."
+  }
+]

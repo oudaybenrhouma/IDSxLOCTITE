@@ -1,0 +1,158 @@
+[
+  {
+    "question_id": "Q1_APPLICATION_TYPE",
+    "text": "What type of industrial maintenance or assembly application are you performing?",
+    "options": [
+      {
+        "label": "Locking threaded fasteners (bolts, nuts, studs, screws)",
+        "next": "Q2_THREADLOCKING_SIZE"
+      },
+      {
+        "label": "Sealing threaded pipe fittings or hydraulic/pneumatic connectors",
+        "next": "Q2_THREAD_SEALING_PARAM"
+      },
+      {
+        "label": "Sealing mating flanges or carter covers (gasketing)",
+        "next": "Q2_GASKETING_TYPE"
+      },
+      {
+        "label": "Retaining cylindrical joints (bearings, shafts, keyways, bushings)",
+        "next": "Q2_RETAINING_GAP"
+      },
+      {
+        "label": "Pump rebuilding, wear protection, or chemical coating",
+        "next": "Q2_PUMP_WEAR_TYPE"
+      },
+      {
+        "label": "Structural bonding of metals, magnets, or plastics",
+        "next": "Q2_STRUCTURAL_SUBSTRATE"
+      }
+    ]
+  },
+  {
+    "question_id": "Q2_THREADLOCKING_SIZE",
+    "text": "What is the fastener size and required disassembly level?",
+    "options": [
+      {
+        "label": "Small screws (< M6) \u2014 requires easy hand tool disassembly",
+        "recommended_product_id": "PROD_222"
+      },
+      {
+        "label": "Standard bolts/nuts (M6 to M20) \u2014 removable with standard hand tools",
+        "recommended_product_id": "PROD_243"
+      },
+      {
+        "label": "Standard bolts/nuts (M6 to M20) \u2014 Health & Safety green formula (no hazard label)",
+        "recommended_product_id": "PROD_2400"
+      },
+      {
+        "label": "Permanent high-strength stud/bolt locking (M10 to M20)",
+        "recommended_product_id": "PROD_270"
+      },
+      {
+        "label": "Large studs/bolts (> 1 inch / > M20) \u2014 heavy duty permanent",
+        "recommended_product_id": "PROD_263"
+      },
+      {
+        "label": "Fastener is ALREADY assembled and tightened",
+        "recommended_product_id": "PROD_290"
+      }
+    ]
+  },
+  {
+    "question_id": "Q2_THREAD_SEALING_PARAM",
+    "text": "What is the thread type, pipe material, and requirement?",
+    "options": [
+      {
+        "label": "Fine threads, hydraulic or pneumatic connectors (zero contamination)",
+        "recommended_product_id": "PROD_542"
+      },
+      {
+        "label": "Coarse metal pipe threads (general purpose medium strength)",
+        "recommended_product_id": "PROD_577"
+      },
+      {
+        "label": "Stainless steel or high temp metal fittings",
+        "recommended_product_id": "PROD_567"
+      },
+      {
+        "label": "Immediate pressure, potable water, gas, or plastic/metal threads",
+        "recommended_product_id": "PROD_55"
+      }
+    ]
+  },
+  {
+    "question_id": "Q2_GASKETING_TYPE",
+    "text": "What is the flange material and gap size?",
+    "options": [
+      {
+        "label": "Rigid cast iron/steel/aluminum flange (gap <= 0.25 mm)",
+        "recommended_product_id": "PROD_518"
+      },
+      {
+        "label": "Rigid metal flange with high temperature (up to 204\u00b0C)",
+        "recommended_product_id": "PROD_510"
+      },
+      {
+        "label": "Stamped sheet metal or flexible flange (gap up to 3 mm)",
+        "recommended_product_id": "PROD_SI5699"
+      },
+      {
+        "label": "Rigid flange with Health & Safety eco-formulation (no hazard label)",
+        "recommended_product_id": "PROD_5800"
+      }
+    ]
+  },
+  {
+    "question_id": "Q2_RETAINING_GAP",
+    "text": "What is the fit type and radial clearance/gap size on the shaft or housing?",
+    "options": [
+      {
+        "label": "Press fit assembly (very small gap)",
+        "recommended_product_id": "PROD_609"
+      },
+      {
+        "label": "Slip fit with tight clearance (gap <= 0.15 mm / 0.006 in)",
+        "recommended_product_id": "PROD_648"
+      },
+      {
+        "label": "Slip fit with standard clearance (gap <= 0.25 mm / 0.010 in)",
+        "recommended_product_id": "PROD_638"
+      },
+      {
+        "label": "Worn shaft, wallowed keyway, or large gap (gap 0.25 mm to 0.50 mm)",
+        "recommended_product_id": "PROD_660"
+      },
+      {
+        "label": "Badly worn shaft requiring metal rebuild and lathe machining",
+        "recommended_product_id": "PROD_EA3478"
+      }
+    ]
+  },
+  {
+    "question_id": "Q2_PUMP_WEAR_TYPE",
+    "text": "What specific pump maintenance problem are you addressing?",
+    "options": [
+      {
+        "label": "Internal volute/casing rebuild due to heavy erosion/cavitation",
+        "recommended_product_id": "PROD_PC7226_rebuild"
+      },
+      {
+        "label": "Impeller & volute low-friction ceramic topcoating",
+        "recommended_product_id": "PROD_PC7227"
+      },
+      {
+        "label": "External or internal severe chemical / sulfuric acid protection",
+        "recommended_product_id": "PROD_PC7117"
+      },
+      {
+        "label": "Worn shaft rebuilding at bearing seat or gland packing",
+        "recommended_product_id": "PROD_EA3478"
+      },
+      {
+        "label": "Anti-seize protection for casing studs and gland nuts",
+        "recommended_product_id": "PROD_LB8008"
+      }
+    ]
+  }
+]

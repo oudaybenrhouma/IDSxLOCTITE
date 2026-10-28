@@ -1,0 +1,30 @@
+[
+  {
+    "ref_id": "REF_DIR_GUIDE_01",
+    "source_pdf": "Do-It-Right-Guide_IN_IMRMAA (1).pdf",
+    "pages_referenced": "5-8, 11, 14, 31, 35, 40-43",
+    "topic": "Maintenance Threadlocking, Thread Sealing, Gasketing, Retaining Quick Selectors, and Fluid Compatibility Chart",
+    "key_claims_extracted": "Selection tables for threadlockers 222, 243, 263, 277, 290; thread sealants 542, 545, 565, 567, 572, 577; retaining compounds 603, 609, 620, 638, 641, 660; gasketing 510, 515, 518, 574, 587, 5699, 5910, 5920."
+  },
+  {
+    "ref_id": "REF_PUMP_GUIDE_02",
+    "source_pdf": "guide_d_entretien_des_pompes_loctite (1).pdf",
+    "pages_referenced": "1-27",
+    "topic": "Centrifugal Pump Maintenance & Repair Solutions (Goulds 3196 case study)",
+    "key_claims_extracted": "360\u00b0 pump reliability solutions: LOCTITE 243/248 for impeller screws and casing bolts; 577/5400 for drain plugs; 518/5800 for split casing flanges; 638/648/641 for bearing mounting; PC 7117/PC 7227/PC 7226 for volute & impeller rebuild/coatings; EA 3478 for shaft rebuild; PC 7202 for grout."
+  },
+  {
+    "ref_id": "REF_FOOD_BROCHURE_03",
+    "source_pdf": "Henkel_Food Brochure_2025_janvier_FR (1).pdf",
+    "pages_referenced": "1-24",
+    "topic": "Food Industry & Potable Water Approved LOCTITE Solutions (2025)",
+    "key_claims_extracted": "NSF H1/H2, NSF/ANSI 61, WRAS, ISEGA, KTW, and Fraunhofer approvals for LOCTITE 222, 243, 270, 2400, 2700, 55, 518, 577, 5776, SI 5331, SI 5699, 603, 638, 648, 6300, LB 8001, LB 8011, LB 8021, LB 8104, LB 8105, LB 8014, LB 8154, EA 3463, EA 9480, TEROSON MS 935."
+  },
+  {
+    "ref_id": "REF_STRUCTURAL_CATALOG_04",
+    "source_pdf": "LOCTITE-Structural-Adhesives-Catalog (1).pdf",
+    "pages_referenced": "1-16",
+    "topic": "Structural Adhesives Catalog (Epoxies, Acrylics, Polyurethanes)",
+    "key_claims_extracted": "Technical specifications table for LOCTITE EA E-20HP, E-30CL, E-60HP, E-60NC, E-90FL, E-120HP, E-00CL, E-00NS, E-05CL, E-05MR, E-214HP, E-40EXP; AA 326, AA 330, AA 331, AA 332, AA 392, AA 3035, AA H4800, AA H8000, AA H8003, AA H8600; UK U-05FL."
+  }
+]

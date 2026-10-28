@@ -1,0 +1,147 @@
+[
+  {
+    "id": "APP_THREADLOCKING",
+    "title": "Threadlocking & Fastener Retaining",
+    "description": "Preventing thread loosening, vibration fatigue, corrosion, and fluid leakage in threaded fasteners.",
+    "sub_applications": [
+      "Through Holes (Bolts and Nuts)",
+      "Blind Holes (Cap Screws)",
+      "Studs and Heavy Duty Fasteners",
+      "Pre-assembled Fasteners & Maintenance Retightening",
+      "Adjustment Screws & Set Screws",
+      "Pump Base Mounting Bolts"
+    ],
+    "primary_products": [
+      "PROD_243",
+      "PROD_270",
+      "PROD_222",
+      "PROD_290",
+      "PROD_263",
+      "PROD_2400",
+      "PROD_2700"
+    ]
+  },
+  {
+    "id": "APP_THREAD_SEALING",
+    "title": "Thread Sealing (Pipes & Fittings)",
+    "description": "Sealing threaded pipe connections, hydraulic fittings, pneumatic lines against high pressure fluids and gases.",
+    "sub_applications": [
+      "Fine Threads & Hydraulic/Pneumatic Lines",
+      "Coarse Threaded Pipe Fittings & Drain Plugs",
+      "Potable Water & Gas Lines",
+      "Stainless Steel Pipe Fittings",
+      "Compression & Flared Fittings"
+    ],
+    "primary_products": [
+      "PROD_577",
+      "PROD_55",
+      "PROD_542",
+      "PROD_565",
+      "PROD_567",
+      "PROD_545"
+    ]
+  },
+  {
+    "id": "APP_GASKETING",
+    "title": "Form-in-Place Gasketing & Flange Sealing",
+    "description": "Sealing machined rigid or stamped metal flanges without precut gaskets to prevent fluid leaks and blowouts.",
+    "sub_applications": [
+      "Rigid Cast Iron / Steel Flanges",
+      "Pump Casing Split Flanges & Covers",
+      "High Temperature Flanges",
+      "Stamped / Stamped Sheet Metal Covers",
+      "Gasket Dressing on Pre-cut Gaskets"
+    ],
+    "primary_products": [
+      "PROD_518",
+      "PROD_574",
+      "PROD_510",
+      "PROD_SI5699",
+      "PROD_SI587",
+      "PROD_MR5923"
+    ]
+  },
+  {
+    "id": "APP_RETAINING",
+    "title": "Cylindrical Assembly Retaining",
+    "description": "Securing bearings, gears, sprockets, impellers, and sleeves onto shafts or into housings.",
+    "sub_applications": [
+      "Press Fit Assemblies",
+      "Slip Fit Assemblies (Light & Heavy Duty)",
+      "Worn Shaft Rebuilding with Sleeves",
+      "Wallowed Keyway Repair",
+      "Worn Bearing Housing Repair"
+    ],
+    "primary_products": [
+      "PROD_638",
+      "PROD_648",
+      "PROD_660",
+      "PROD_609",
+      "PROD_641",
+      "PROD_EA3478"
+    ]
+  },
+  {
+    "id": "APP_PUMP_MAINTENANCE",
+    "title": "Centrifugal Pump Repair & Protective Maintenance",
+    "description": "360\u00b0 reliability solutions for centrifugal pumps (e.g. Goulds 3196, split case, slurry pumps).",
+    "sub_applications": [
+      "Pump Base Grouting & Aligning",
+      "External Casing Corrosion Coating",
+      "Volute & Casing Wear Rebuilding",
+      "Impeller Blade Restoration",
+      "Oil Seepage Prevention",
+      "Shaft Wear Sleeve & Rebuilding"
+    ],
+    "primary_products": [
+      "PROD_PC7117",
+      "PROD_PC7227",
+      "PROD_EA3478",
+      "PROD_660",
+      "PROD_243",
+      "PROD_577",
+      "PROD_518",
+      "PROD_LB8008"
+    ]
+  },
+  {
+    "id": "APP_FOOD_BEVERAGE",
+    "title": "Food & Beverage Industry Maintenance",
+    "description": "Adhesives, sealants, and lubricants certified for incidental food contact (NSF H1/H2, NSF 61, WRAS, ISEGA, Fraunhofer).",
+    "sub_applications": [
+      "Food Plant Threadlocking",
+      "Potable Water Thread & Flange Sealing",
+      "Food Grade Lubrication & Anti-Seize",
+      "Structural Bonding in Food Processing Equipment"
+    ],
+    "primary_products": [
+      "PROD_243",
+      "PROD_55",
+      "PROD_518",
+      "PROD_577",
+      "PROD_648",
+      "PROD_401",
+      "PROD_LB8104",
+      "PROD_2400"
+    ]
+  },
+  {
+    "id": "APP_STRUCTURAL_BONDING",
+    "title": "Structural Bonding & Metal Assembly",
+    "description": "High-strength joint bonding replacing spot welding, riveting, and mechanical fasteners.",
+    "sub_applications": [
+      "High Impact Metal Bonding",
+      "Magnet Bonding in Electric Motors",
+      "Composite & Polyolefin Bonding",
+      "Potting & Encapsulating Electronics"
+    ],
+    "primary_products": [
+      "PROD_EAE20HP",
+      "PROD_AA326",
+      "PROD_AA330",
+      "PROD_AA3035",
+      "PROD_H8000",
+      "PROD_EAE120HP"
+    ]
+  }
+]

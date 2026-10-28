@@ -1,0 +1,120 @@
+[
+  {
+    "comparison_id": "COMP_THREADLOCKER_MEDIUM_VS_HIGH",
+    "title": "Medium Strength (LOCTITE 243) vs High Strength (LOCTITE 270 / 263)",
+    "target_products": [
+      "PROD_243",
+      "PROD_270",
+      "PROD_263"
+    ],
+    "comparison_matrix": {
+      "disassembly_method": {
+        "PROD_243": "Standard hand tools",
+        "PROD_270": "Localized heat to 250\u00b0C + hand tools while hot",
+        "PROD_263": "Localized heat to 232\u00b0C for 5 min + hand tools"
+      },
+      "typical_fastener_size": {
+        "PROD_243": "M6 to M20 bolts/nuts",
+        "PROD_270": "Up to M20 studs/bolts permanent",
+        "PROD_263": "Up to 1\" studs heavy duty"
+      },
+      "oil_tolerance": {
+        "PROD_243": "High (cures on minor surface oil)",
+        "PROD_270": "High",
+        "PROD_263": "High"
+      },
+      "primary_use_case": {
+        "PROD_243": "Maintenance removable locking",
+        "PROD_270": "Permanent motor block studs / pump base bolts",
+        "PROD_263": "Heavy industrial stud locking"
+      }
+    }
+  },
+  {
+    "comparison_id": "COMP_THREAD_SEALANT_LIQUID_VS_CORD",
+    "title": "Anaerobic Thread Sealant (LOCTITE 577) vs Pipe Sealing Cord (LOCTITE 55)",
+    "target_products": [
+      "PROD_577",
+      "PROD_55"
+    ],
+    "comparison_matrix": {
+      "form_factor": {
+        "PROD_577": "Anaerobic Gel Paste",
+        "PROD_55": "Polyamide Cord coated with inert paste"
+      },
+      "cure_time": {
+        "PROD_577": "Immediate low pressure; full cure 24 h",
+        "PROD_55": "Immediate full pressure sealing"
+      },
+      "re-alignment": {
+        "PROD_577": "Do not rotate/adjust after mating",
+        "PROD_55": "Allows readjustment / backing off up to 45\u00b0"
+      },
+      "substrate_compatibility": {
+        "PROD_577": "Metals only",
+        "PROD_55": "Metals and Plastics"
+      },
+      "approvals": {
+        "PROD_577": "NSF P1, DVGW, WRAS",
+        "PROD_55": "NSF/ANSI 61, WRAS, DVGW Gas/Water, Fraunhofer Food Contact"
+      }
+    }
+  },
+  {
+    "comparison_id": "COMP_RETAINING_638_VS_648_VS_660",
+    "title": "Retaining Compounds: LOCTITE 638 vs 648 vs 660",
+    "target_products": [
+      "PROD_638",
+      "PROD_648",
+      "PROD_660"
+    ],
+    "comparison_matrix": {
+      "viscosity": {
+        "PROD_638": "High (Liquid)",
+        "PROD_648": "Low (Liquid)",
+        "PROD_660": "Paste / Gel"
+      },
+      "max_radial_gap": {
+        "PROD_638": "0.25 mm (0.010 in)",
+        "PROD_648": "0.15 mm (0.006 in)",
+        "PROD_660": "0.50 mm (0.020 in)"
+      },
+      "shear_strength": {
+        "PROD_638": "Very High (>25 N/mm\u00b2)",
+        "PROD_648": "Very High (>25 N/mm\u00b2)",
+        "PROD_660": "High"
+      },
+      "primary_application": {
+        "PROD_638": "General slip fit & high gap shafts",
+        "PROD_648": "Tight clearance gears & press fit",
+        "PROD_660": "Worn shafts, wallowed keyways, emergency repair"
+      }
+    }
+  },
+  {
+    "comparison_id": "COMP_GASKETING_ANAEROBIC_VS_SILICONE",
+    "title": "Anaerobic Flange Sealant (LOCTITE 518) vs High Performance Silicone (LOCTITE SI 5699)",
+    "target_products": [
+      "PROD_518",
+      "PROD_SI5699"
+    ],
+    "comparison_matrix": {
+      "flange_rigidity": {
+        "PROD_518": "Rigid cast iron/steel/aluminum",
+        "PROD_SI5699": "Flexible stamped/sheet metal or rigid"
+      },
+      "max_gap_fill": {
+        "PROD_518": "0.25 mm (0.010 in)",
+        "PROD_SI5699": "3.175 mm (0.125 in)"
+      },
+      "fuel_chemical_resistance": {
+        "PROD_518": "Excellent (gasoline, oil, solvents)",
+        "PROD_SI5699": "Good oil resistance; not for fuel immersion"
+      },
+      "blowout_resistance": {
+        "PROD_518": "High pressure blowout resistant",
+        "PROD_SI5699": "Flexible elastomeric seal"
+      }
+    }
+  }
+]

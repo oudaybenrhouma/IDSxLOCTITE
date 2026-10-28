@@ -1,0 +1,31 @@
+[
+  {
+    "item_id": "UNRES_001",
+    "field": "Color specification for LOCTITE 222",
+    "documents_involved": [
+      "Do-It-Right-Guide_IN_IMRMAA (1).pdf",
+      "Henkel_Food Brochure_2025_janvier_FR (1).pdf"
+    ],
+    "issue_description": "Do-It-Right Guide lists LOCTITE 222 as Purple color in selector table. Food Brochure 2025 displays LOCTITE 222 bottle with Red label text. Standard industry specification is Purple liquid product.",
+    "action_required": "Verify bottle visual branding vs internal liquid color code."
+  },
+  {
+    "item_id": "UNRES_002",
+    "field": "Operating Temperature Max for LOCTITE 518",
+    "documents_involved": [
+      "Do-It-Right-Guide_IN_IMRMAA (1).pdf",
+      "Henkel_Food Brochure_2025_janvier_FR (1).pdf"
+    ],
+    "issue_description": "Do-It-Right Guide specifies LOCTITE 518 temp range as -54\u00b0C to +150\u00b0C. French Food Brochure specifies -50\u00b0C to +150\u00b0C.",
+    "action_required": "Flag 4\u00b0C lower bound variance for automated rule checking."
+  },
+  {
+    "item_id": "UNRES_003",
+    "field": "Specific viscosity values for PC ceramic coatings",
+    "documents_involved": [
+      "guide_d_entretien_des_pompes_loctite (1).pdf"
+    ],
+    "issue_description": "LOCTITE PC 7117, PC 7227, PC 7221, PC 7226, PC 7255 descriptions state brushable or putty paste, but numerical mPa.s viscosity values are omitted in the pump guide text.",
+    "action_required": "Obtain exact mPa.s values from Henkel Technical Data Sheets (TDS) for precise viscosity filtering."
+  }
+]

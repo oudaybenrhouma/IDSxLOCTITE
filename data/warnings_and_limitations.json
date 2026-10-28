@@ -1,0 +1,67 @@
+[
+  {
+    "warning_id": "WARN_OXYGEN_OXIDIZERS",
+    "title": "DO NOT USE ANAEROBIC SEALANTS ON OXYGEN OR STRONG OXIDIZERS",
+    "affected_products": [
+      "PROD_222",
+      "PROD_243",
+      "PROD_270",
+      "PROD_290",
+      "PROD_542",
+      "PROD_565",
+      "PROD_567",
+      "PROD_577",
+      "PROD_518",
+      "PROD_638",
+      "PROD_648",
+      "PROD_660"
+    ],
+    "description": "Anaerobic sealants and adhesives must NEVER be used on pure oxygen, gaseous chlorine, or strong oxidizers due to potential explosion or energetic chemical reaction hazards.",
+    "severity": "CRITICAL / SAFETY HAZARD"
+  },
+  {
+    "warning_id": "WARN_PLASTIC_THREAD_ATTACK",
+    "title": "Anaerobic Thread Sealant Solvent Cracking on Thermoplastics",
+    "affected_products": [
+      "PROD_577",
+      "PROD_565",
+      "PROD_567",
+      "PROD_542"
+    ],
+    "description": "Standard liquid anaerobic thread sealants can cause stress cracking on ABS, polycarbonate, PVC, and other thermoplastic fittings. Use LOCTITE 55 thread cord or LOCTITE SI 5331 for plastic fittings.",
+    "severity": "HIGH / PROPERTY DAMAGE"
+  },
+  {
+    "warning_id": "WARN_GAP_LIMIT_660",
+    "title": "LOCTITE 660 Radial Gap Limitation",
+    "affected_products": [
+      "PROD_660"
+    ],
+    "description": "LOCTITE 660 Retaining Compound is NOT recommended for radial or lateral gaps exceeding 0.020 inch (0.50 mm). Gaps larger than 0.5 mm require metal rebuilding putties such as LOCTITE EA 3478 Superior Metal.",
+    "severity": "MEDIUM / TECHNICAL LIMITATION"
+  },
+  {
+    "warning_id": "WARN_HIGH_STRENGTH_DISASSEMBLY",
+    "title": "High Strength Disassembly Procedure",
+    "affected_products": [
+      "PROD_263",
+      "PROD_270",
+      "PROD_277",
+      "PROD_638"
+    ],
+    "description": "High strength threadlockers and retaining compounds cannot be disassembled easily with hand tools alone. Applying hand tools forcibly may shear bolt heads or strip threads. Apply localized heat (230\u00b0C\u2013250\u00b0C for 5 minutes) and disassemble while HOT.",
+    "severity": "MEDIUM / PROCEDURE PRECAUTION"
+  },
+  {
+    "warning_id": "WARN_SURFACE_PREP_SA25",
+    "title": "Required Surface Preparation for Protective Coatings",
+    "affected_products": [
+      "PROD_PC7117",
+      "PROD_PC7227",
+      "PROD_PC7226",
+      "PROD_EA3478"
+    ],
+    "description": "Applying ceramic coatings or metal rebuilding epoxies onto smooth, oily, or unblasted metal will result in premature delamination under fluid shear. Surfaces MUST be degreased with SF 7063/7070 and grit-blasted to SA 2.5 near-white metal profile prior to application.",
+    "severity": "HIGH / ADHESION FAILURE"
+  }
+]
