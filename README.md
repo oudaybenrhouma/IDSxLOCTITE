@@ -30,10 +30,12 @@ npm run dev        # API (4173) + Vite dev server (5173, /api proxied to 4173)
 ### Deploying to Vercel
 
 Import the repository into Vercel with the project root set to this directory. The
-included `vercel.json` keeps the `data/` JSON files available to the API function;
-`api/[...path].js` serves the Express API alongside the Vite-built interface. No
-separate API deployment or environment variables are required. After deployment,
-check `/api/health` and confirm it reports `21` products.
+included `vercel.json` keeps the `data/` JSON files available to the API functions.
+`api/[...path].js` serves the Express API alongside the Vite-built interface, with
+explicit function entry points for nested API paths. No separate API deployment or
+environment variables are required. After deployment, check `/api/health` and
+`/api/datasets/status`; both should respond, and the health endpoint should report
+`21` products.
 
 Other commands:
 
