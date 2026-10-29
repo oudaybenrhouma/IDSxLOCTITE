@@ -523,11 +523,13 @@ if (fs.existsSync(dist)) {
   });
 }
 
-app.listen(PORT, HOST, () => {
-  const s = store.state;
-  const summary = s.kb ? s.kb.validation.stats : {};
-  console.log(`[ids] API ready on http://${HOST}:${PORT} (data: ${DATA_DIR})`);
-  console.log(`[ids] products=${summary.products ?? 0} errors=${s.kb?.validation.errors.length ?? '?'} warnings=${s.kb?.validation.warnings.length ?? '?'}`);
-});
+if (!process.env.VERCEL) {
+  app.listen(PORT, HOST, () => {
+    const s = store.state;
+    const summary = s.kb ? s.kb.validation.stats : {};
+    console.log(`[ids] API ready on http://${HOST}:${PORT} (data: ${DATA_DIR})`);
+    console.log(`[ids] products=${summary.products ?? 0} errors=${s.kb?.validation.errors.length ?? '?'} warnings=${s.kb?.validation.warnings.length ?? '?'}`);
+  });
+}
 
 export { app, store, STATUS };
